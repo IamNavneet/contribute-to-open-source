@@ -113,7 +113,7 @@ describe('multiply', () => {
   });
 });
 
-describe.skip('divide', () => {
+describe('divide', () => {
   it('should throw a TypeError if arguments are not numbers', () => {
     expect(() => calculator.divide(40, '2')).to.throw(TypeError);
     expect(() => calculator.divide(40, [])).to.throw(TypeError);
